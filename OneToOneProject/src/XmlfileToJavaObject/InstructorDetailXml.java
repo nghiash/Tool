@@ -1,3 +1,4 @@
+/*Class Details*/
 package XmlfileToJavaObject;
 
 public class InstructorDetailXml {
@@ -6,6 +7,7 @@ private String hobby;
 
 @Override
 public String toString() {
+	/*function to show all of data*/
 	return "InstructorDetailXml [youtube_channel=" + youtube_channel + ", hobby=" + hobby + "]";
 }
 
