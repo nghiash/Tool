@@ -1,10 +1,13 @@
 package com.laptrinhSpringMVC;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -20,6 +23,16 @@ public class InstructorDetail {
   private String youtubeChannel;
   @Column(name="hobby")
   private String hobby;
+  //@OneToOne(mappedBy = "instructor_Detail", cascade = CascadeType.ALL)
+  @OneToOne(mappedBy = "instructor_Detail",cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST
+		  ,CascadeType.REFRESH}) // Use all cascade type except Remove to break BI - DIRECT. Now, we can delete only the Instructor detail component
+  private Instructor instrutor;
+public Instructor getInstrutor() {
+	return instrutor;
+}
+public void setInstrutor(Instructor instrutor) {
+	this.instrutor = instrutor;
+}
 public InstructorDetail() {
 }
 public InstructorDetail(String youtubeChannel, String hobby) {
