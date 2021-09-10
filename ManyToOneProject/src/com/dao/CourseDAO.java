@@ -25,7 +25,7 @@ public class CourseDAO {
 	@ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST,
 			CascadeType.REFRESH})
 	@JoinColumn(name="instructor_id")
-	private Instructor instructor_id;
+	private Instructor instructor;
 	public int getId() {
 		return id;
 	}
@@ -38,11 +38,11 @@ public class CourseDAO {
 	public void setTitile(String titile) {
 		this.titile = titile;
 	}
-	public Instructor getInstructor_id() {
-		return instructor_id;
+	public Instructor getInstructor() {
+		return instructor;
 	}
-	public void setInstructor_id(Instructor instructor_id) {
-		this.instructor_id = instructor_id;
+	public void setInstructor(Instructor instructor_id) {
+		this.instructor = instructor_id;
 	}
 	
 	public CourseDAO(String titile) {
@@ -55,6 +55,6 @@ public class CourseDAO {
 	}
 	public CourseDAO() {
 	}
-	
+
 
 }

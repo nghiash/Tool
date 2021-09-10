@@ -1,11 +1,13 @@
 package com.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -77,13 +79,20 @@ public InstructorDetail getInstructureDetail() {
 public void setInstructureDetail(InstructorDetail instructor_Detail_arg) {
 	this.instructor_Detail = instructor_Detail_arg;
 }
-@OneToMany(mappedBy = "instructor_id", cascade= {CascadeType.DETACH,CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
+@OneToMany(mappedBy = "instructor", cascade= {CascadeType.DETACH,CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH}, fetch = FetchType.EAGER)
 private List<CourseDAO>course;
 public List<CourseDAO> getCourse() {
 	return course;
 }
 public void setCourse(List<CourseDAO> course) {
 	this.course = course;
+}
+public void add(CourseDAO argcourse) {
+	if(course == null) {
+		course = new ArrayList<CourseDAO>();
+	}
+	course.add(argcourse);
+	argcourse.setInstructor(this);
 }
 
 }

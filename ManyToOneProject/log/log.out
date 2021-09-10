@@ -1,0 +1,1123 @@
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+ Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+ Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+ HHH000412: Hibernate Core {5.2.18.Final}
+ HHH000206: hibernate.properties not found
+ Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+ Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+ cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+ Building session factory using internal StandardServiceRegistryBuilder
+ Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+ Building session factory using provided StandardServiceRegistry
+ Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+ Adding type registration boolean -> org.hibernate.type.BooleanType@6a1aab78
+ Adding type registration boolean -> org.hibernate.type.BooleanType@6a1aab78
+ Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6a1aab78
+ Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@66d1af89
+ Adding type registration true_false -> org.hibernate.type.TrueFalseType@42eca56e
+ Adding type registration yes_no -> org.hibernate.type.YesNoType@192d3247
+ Adding type registration byte -> org.hibernate.type.ByteType@7a30d1e6
+ Adding type registration byte -> org.hibernate.type.ByteType@7a30d1e6
+ Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7a30d1e6
+ Adding type registration character -> org.hibernate.type.CharacterType@23fe1d71
+ Adding type registration char -> org.hibernate.type.CharacterType@23fe1d71
+ Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@23fe1d71
+ Adding type registration short -> org.hibernate.type.ShortType@51c8530f
+ Adding type registration short -> org.hibernate.type.ShortType@51c8530f
+ Adding type registration java.lang.Short -> org.hibernate.type.ShortType@51c8530f
+ Adding type registration integer -> org.hibernate.type.IntegerType@75881071
+ Adding type registration int -> org.hibernate.type.IntegerType@75881071
+ Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@75881071
+ Adding type registration long -> org.hibernate.type.LongType@2de8284b
+ Adding type registration long -> org.hibernate.type.LongType@2de8284b
+ Adding type registration java.lang.Long -> org.hibernate.type.LongType@2de8284b
+ Adding type registration float -> org.hibernate.type.FloatType@782663d3
+ Adding type registration float -> org.hibernate.type.FloatType@782663d3
+ Adding type registration java.lang.Float -> org.hibernate.type.FloatType@782663d3
+ Adding type registration double -> org.hibernate.type.DoubleType@2e3fc542
+ Adding type registration double -> org.hibernate.type.DoubleType@2e3fc542
+ Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2e3fc542
+ Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2eda0940
+ Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2eda0940
+ Adding type registration big_integer -> org.hibernate.type.BigIntegerType@67b467e9
+ Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@67b467e9
+ Adding type registration string -> org.hibernate.type.StringType@149494d8
+ Adding type registration java.lang.String -> org.hibernate.type.StringType@149494d8
+ Adding type registration nstring -> org.hibernate.type.StringNVarcharType@306279ee
+ Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4c762604
+ Adding type registration url -> org.hibernate.type.UrlType@24a35978
+ Adding type registration java.net.URL -> org.hibernate.type.UrlType@24a35978
+ Adding type registration Duration -> org.hibernate.type.DurationType@27d415d9
+ Adding type registration java.time.Duration -> org.hibernate.type.DurationType@27d415d9
+ Adding type registration Instant -> org.hibernate.type.InstantType@1da51a35
+ Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1da51a35
+ Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@768b970c
+ Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@768b970c
+ Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7ba18f1b
+ Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7ba18f1b
+ Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6483f5ae
+ Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6483f5ae
+ Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5427c60c
+ Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5427c60c
+ Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6366ebe0
+ Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6366ebe0
+ Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1cab0bfb
+ Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1cab0bfb
+ Adding type registration date -> org.hibernate.type.DateType@dbd940d
+ Adding type registration java.sql.Date -> org.hibernate.type.DateType@dbd940d
+ Adding type registration time -> org.hibernate.type.TimeType@76b10754
+ Adding type registration java.sql.Time -> org.hibernate.type.TimeType@76b10754
+ Adding type registration timestamp -> org.hibernate.type.TimestampType@2a40cd94
+ Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2a40cd94
+ Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2a40cd94
+ Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@58a90037
+ Adding type registration calendar -> org.hibernate.type.CalendarType@2f490758
+ Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2f490758
+ Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2f490758
+ Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@40f08448
+ Adding type registration locale -> org.hibernate.type.LocaleType@7181ae3f
+ Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7181ae3f
+ Adding type registration currency -> org.hibernate.type.CurrencyType@1442d7b5
+ Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1442d7b5
+ Adding type registration timezone -> org.hibernate.type.TimeZoneType@6cc7b4de
+ Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6cc7b4de
+ Adding type registration class -> org.hibernate.type.ClassType@45afc369
+ Adding type registration java.lang.Class -> org.hibernate.type.ClassType@45afc369
+ Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@11c20519
+ Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@11c20519
+ Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@32a068d1
+ Adding type registration binary -> org.hibernate.type.BinaryType@282003e1
+ Adding type registration byte[] -> org.hibernate.type.BinaryType@282003e1
+ Adding type registration [B -> org.hibernate.type.BinaryType@282003e1
+ Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4df828d7
+ Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4df828d7
+ Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4df828d7
+ Adding type registration row_version -> org.hibernate.type.RowVersionType@31206beb
+ Adding type registration image -> org.hibernate.type.ImageType@120d6fe6
+ Adding type registration characters -> org.hibernate.type.CharArrayType@37574691
+ Adding type registration char[] -> org.hibernate.type.CharArrayType@37574691
+ Adding type registration [C -> org.hibernate.type.CharArrayType@37574691
+ Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1445d7f
+ Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1445d7f
+ Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1445d7f
+ Adding type registration text -> org.hibernate.type.TextType@10b48321
+ Adding type registration ntext -> org.hibernate.type.NTextType@442675e1
+ Adding type registration blob -> org.hibernate.type.BlobType@23a5fd2
+ Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@23a5fd2
+ Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@551bdc27
+ Adding type registration clob -> org.hibernate.type.ClobType@279ad2e3
+ Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@279ad2e3
+ Adding type registration nclob -> org.hibernate.type.NClobType@2b4a2ec7
+ Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2b4a2ec7
+ Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@18a70f16
+ Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6279cee3
+ Adding type registration serializable -> org.hibernate.type.SerializableType@1a052a00
+ Adding type registration object -> org.hibernate.type.ObjectType@4c40b76e
+ Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4c40b76e
+ Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1e67a849
+ Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@57d5872c
+ Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@667a738
+ Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@36f0f1be
+ Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@157632c9
+ Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6ee12bac
+ Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@55040f2f
+ Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@64c87930
+ HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+ HHH10001005: using driver [oracle.jdbc.OracleDriver] at URL [jdbc:oracle:thin:@vnmaxi03.clienttest.btmgcs.com:1521:epsilon]
+ HHH10001001: Connection properties: {user=epsilon, password=Btmgcs4mau}
+ HHH10001003: Autocommit mode: false
+ Initializing Connection pool with 1 Connections
+ HHH000115: Hibernate connection pool size: 1 (min=1)
+ Database ->
+       name : Oracle
+    version : Oracle Database 12c Standard Edition Release 12.2.0.1.0 - 64bit Production
+      major : 12
+      minor : 2
+ Driver ->
+       name : Oracle JDBC driver
+    version : 12.2.0.1.0
+      major : 12
+      minor : 2
+ JDBC version : 4.2
+ HHH000400: Using dialect: org.hibernate.dialect.Oracle8iDialect
+ Unexpected error trying to gauge level of JDBC REF_CURSOR support : Class org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport can not access a member of class oracle.jdbc.driver.OracleDatabaseMetaData with modifiers "public"
+ Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+ Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+ Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+ Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+ Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+ Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+ Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+ Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+ Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+ Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+ Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+ Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+ Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+ Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+ Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+ Binding entity from annotated class: com.dao.Instructor
+ Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+ Import with entity name Instructor
+ Bind entity com.dao.Instructor on table INSTRUCTOR
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=id, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property id with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.Instructor:id]
+ building SimpleValue for id
+ Building property id
+ Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='instructor_id'}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=course, insertable=true, updatable=true, unique=false}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=null, insertable=true, updatable=true, unique=false}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=element, insertable=true, updatable=true, unique=false}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=course_KEY, insertable=true, updatable=true, unique=false}
+ Binding column: Ejb3JoinColumn{logicalColumnName='course_KEY', referencedColumn='null', mappedBy='null'}
+ Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='instructor_id'}
+ Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='instructor_id'}
+ Collection role: com.dao.Instructor.course
+ Building property course
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=email, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property email with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.Instructor:email]
+ building SimpleValue for email
+ Building property email
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property firstName with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.Instructor:firstName]
+ building SimpleValue for firstName
+ Building property firstName
+ Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=instructor_Detail, insertable=true, updatable=true, unique=false}
+ Building property instructor_Detail
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property lastName with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.Instructor:lastName]
+ building SimpleValue for lastName
+ Building property lastName
+ Binding entity from annotated class: com.dao.InstructorDetail
+ Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+ Import with entity name InstructorDetail
+ Bind entity com.dao.InstructorDetail on table INSTRUCTOR_DETAIL
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR_DETAIL), mappingColumn=id, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property id with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.InstructorDetail:id]
+ building SimpleValue for id
+ Building property id
+ HHH000069: Duplicate generator name id_Sequence
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR_DETAIL), mappingColumn=hobby, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property hobby with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.InstructorDetail:hobby]
+ building SimpleValue for hobby
+ Building property hobby
+ Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='instructor_Detail'}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR_DETAIL), mappingColumn=instrutor, insertable=true, updatable=true, unique=false}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(INSTRUCTOR_DETAIL), mappingColumn=youtube_channel, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property youtubeChannel with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.InstructorDetail:youtubeChannel]
+ building SimpleValue for youtubeChannel
+ Building property youtubeChannel
+ Binding entity from annotated class: com.dao.CourseDAO
+ Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+ Import with entity name CourseDAO
+ Bind entity com.dao.CourseDAO on table COURSE
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(COURSE), mappingColumn=id, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property id with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.CourseDAO:id]
+ building SimpleValue for id
+ Building property id
+ Binding column: Ejb3JoinColumn{logicalColumnName='instructor_id', referencedColumn='', mappedBy=''}
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(COURSE), mappingColumn=instructor_id, insertable=true, updatable=true, unique=false}
+ Building property instructor_id
+ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(COURSE), mappingColumn=titile, insertable=true, updatable=true, unique=false}
+ MetadataSourceProcessor property titile with lazy=false
+ Attempting to locate auto-apply AttributeConverter for property [com.dao.CourseDAO:titile]
+ building SimpleValue for titile
+ Building property titile
+ Starting fillSimpleValue for id
+ Starting fillSimpleValue for email
+ Starting fillSimpleValue for firstName
+ Starting fillSimpleValue for lastName
+ Starting fillSimpleValue for id
+ Starting fillSimpleValue for hobby
+ Starting fillSimpleValue for youtubeChannel
+ Starting fillSimpleValue for id
+ Starting fillSimpleValue for titile
+ Forcing column [id] to be non-null as it is part of the primary key for table [instructor]
+ Forcing column [id] to be non-null as it is part of the primary key for table [instructor_detail]
+ Forcing column [id] to be non-null as it is part of the primary key for table [course]
+ Second pass for collection: com.dao.Instructor.course
+ Binding a OneToMany: com.dao.Instructor.course through a foreign key
+ Mapping collection: com.dao.Instructor.course -> COURSE
+ Retrieving property com.dao.CourseDAO.instructor_id
+ Mapped collection key: instructor_id, one-to-many: com.dao.CourseDAO
+ Building property instrutor
+ Processing association property references
+ Resolving reference to class: com.dao.Instructor
+ Resolving reference to class: com.dao.InstructorDetail
+ Processing association property references
+ Resolving reference to class: com.dao.Instructor
+ Resolving reference to class: com.dao.InstructorDetail
+ Building session factory
+ SessionFactory name : null
+ Automatic flush during beforeCompletion(): enabled
+ Automatic session close at end of transaction: disabled
+ Statistics: disabled
+ Deleted entity synthetic identifier rollback: disabled
+ Default entity-mode: pojo
+ Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+ Allow initialization of lazy state outside session : disabled
+ Using BatchFetchStyle : LEGACY
+ Default batch fetch size: -1
+ Maximum outer join fetch depth: null
+ Default null ordering: NONE
+ Order SQL updates by primary key: disabled
+ Order SQL inserts for batching: disabled
+ multi-tenancy strategy : NONE
+ JTA Track by Thread: enabled
+ Query language substitutions: {}
+ JPA query language strict compliance: disabled
+ Named query checking : enabled
+ Second-level cache: disabled
+ Second-level query cache: disabled
+ Second-level query cache factory: null
+ Second-level cache region prefix: null
+ Optimize second-level cache for minimal puts: disabled
+ Structured second-level cache entries: disabled
+ Second-level cache direct-reference entries: disabled
+ Automatic eviction of collection cache: disabled
+ JDBC batch size: 15
+ JDBC batch updates for versioned data: disabled
+ Scrollable result sets: enabled
+ Wrap result sets: disabled
+ JDBC3 getGeneratedKeys(): disabled
+ JDBC result set fetch size: null
+ Connection release mode: AFTER_TRANSACTION
+ Generate SQL with comments: disabled
+ Session factory constructed with filter configurations : {}
+ Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.Oracle8iDialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.Oracle8iDialect, java.class.path=C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\bin;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\antlr-2.7.7.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\classmate-1.3.0.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\dom4j-2.1.1.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\hibernate-core-5.2.18.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\jandex-2.0.3.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\javassist-3.22.0-GA.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\jboss-logging-3.3.1.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\ojdbc8.jar;C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject\src\lib\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=, os.name=Windows 10, java.vm.specification.version=1.8, current_session_context_class=thread, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, sun.java.command=com.command.DeleteCourseDemo, sun.cpu.endian=little, user.home=C:\Users\nghiat.nguyen, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, user.script=, connection.password=Btmgcs4mau, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_161-b12, user.name=nghiat.nguyen, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:oracle:thin:@vnmaxi03.clienttest.btmgcs.com:1521:epsilon, connection.pool_size=1, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, show_sql=true, hibernate.connection.driver_class=oracle.jdbc.OracleDriver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\NGHIAT~1.NGU\AppData\Local\Temp\, java.version=1.8.0_161, user.dir=C:\Users\nghiat.nguyen\learnSpringws\GitHUbRepo\Tool\ManyToOneProject, os.arch=amd64, connection.username=epsilon, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=oracle.jdbc.OracleDriver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@4c51bb7, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/nghiat.nguyen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/nghiat.nguyen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Users\nghiat.nguyen\AppData\Local\Microsoft\WindowsApps;;C:\Users\nghiat.nguyen\Desktop;;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.161-b12, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.pool_size=1, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:oracle:thin:@vnmaxi03.clienttest.btmgcs.com:1521:epsilon, java.class.version=52.0}
+ Skipping JACC integration as it was not enabled
+ Instantiated session factory
+ Not known whether passed class name [com.dao.Instructor] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.Instructor
+ Not known whether passed class name [com.dao.Instructor] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.Instructor
+ Not known whether passed class name [com.dao.InstructorDetail] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.InstructorDetail
+ Not known whether passed class name [com.dao.InstructorDetail] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.InstructorDetail
+ Not known whether passed class name [com.dao.CourseDAO] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.CourseDAO
+ Not known whether passed class name [com.dao.CourseDAO] is safe
+ No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.dao.CourseDAO
+ Static SQL for collection: com.dao.Instructor.course
+  Row insert: update COURSE set instructor_id=? where id=?
+  Row update: update COURSE set  where id=?
+  Row delete: update COURSE set instructor_id=null where instructor_id=? and id=?
+  One-shot delete: update COURSE set instructor_id=null where instructor_id=?
+ Static SQL for entity: com.dao.Instructor
+  Version select: select id from INSTRUCTOR where id =?
+  Snapshot select: select instructor_.id, instructor_.email as email2_1_, instructor_.first_name as first_name3_1_, instructor_.instructor_Detail_id as instructor_Detail_5_1_, instructor_.last_name as last_name4_1_ from INSTRUCTOR instructor_ where instructor_.id=?
+  Insert 0: insert into INSTRUCTOR (email, first_name, instructor_Detail_id, last_name, id) values (?, ?, ?, ?, ?)
+  Update 0: update INSTRUCTOR set email=?, first_name=?, instructor_Detail_id=?, last_name=? where id=?
+  Delete 0: delete from INSTRUCTOR where id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13006998]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@287f94b1]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@158d255c]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5707c1cb]
+ Visiting attribute path : instructor_Detail.hobby
+ Visiting attribute path : instructor_Detail.youtubeChannel
+ Visiting attribute path : instructor_Detail.instrutor
+ Property path deemed to be circular : instructor_Detail.instrutor
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(instructor_Detail)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.dao.InstructorDetail)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+ Static select for entity com.dao.Instructor [NONE]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_, instructor1_.id as id1_2_1_, instructor1_.hobby as hobby2_2_1_, instructor1_.youtube_channel as youtube_channel3_2_1_ from INSTRUCTOR instructor0_, INSTRUCTOR_DETAIL instructor1_ where instructor0_.instructor_Detail_id=instructor1_.id(+) and instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5bbc9f97]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@41382722]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7dac3fd8]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@425357dd]
+ Visiting attribute path : instructor_Detail.hobby
+ Visiting attribute path : instructor_Detail.youtubeChannel
+ Visiting attribute path : instructor_Detail.instrutor
+ Property path deemed to be circular : instructor_Detail.instrutor
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(instructor_Detail)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.dao.InstructorDetail)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+ Static select for entity com.dao.Instructor [READ]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_, instructor1_.id as id1_2_1_, instructor1_.hobby as hobby2_2_1_, instructor1_.youtube_channel as youtube_channel3_2_1_ from INSTRUCTOR instructor0_, INSTRUCTOR_DETAIL instructor1_ where instructor0_.instructor_Detail_id=instructor1_.id(+) and instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@210386e0]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@65f87a2c]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51684e4a]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ce1f601]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [UPGRADE]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38875e7d]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@d816dde]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e33c391]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6c451c9c]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [UPGRADE_NOWAIT]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@31c269fd]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@47747fb9]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3113a37]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@213e3629]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [UPGRADE_SKIPLOCKED]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e9658b5]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@20312893]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70eecdc2]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c41709a]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [FORCE]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7db0565c]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@52eacb4b]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5528a42c]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a551a63]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [PESSIMISTIC_READ]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a6f5124]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ec2bf82]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cc62a3b]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6cc0bcf6]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [PESSIMISTIC_WRITE]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29539e36]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@f5c79a6]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@669253b7]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5305c37d]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [PESSIMISTIC_FORCE_INCREMENT]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51a06cbe]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@49a64d82]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@344561e0]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66d23e4a]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [OPTIMISTIC]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36ac8a63]
+ Visiting attribute path : course
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@52c8295b]
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@251f7d26]
+ Visiting attribute path : email
+ Visiting attribute path : firstName
+ Visiting attribute path : instructor_Detail
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77b21474]
+ Visiting attribute path : lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.Instructor)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.Instructor, querySpaceUid=<gen:0>, path=com.dao.Instructor)
+          - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:1>, path=com.dao.Instructor.course)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:2>, path=com.dao.Instructor.course.<elements>)
+          - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:3>, path=com.dao.Instructor.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.Instructor)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+ Static select for entity com.dao.Instructor [OPTIMISTIC_FORCE_INCREMENT]: select instructor0_.id as id1_1_0_, instructor0_.email as email2_1_0_, instructor0_.first_name as first_name3_1_0_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor0_.last_name as last_name4_1_0_ from INSTRUCTOR instructor0_ where instructor0_.id=?
+ Static select for action ACTION_MERGE on entity com.dao.Instructor: select instructor0_.id as id1_1_2_, instructor0_.email as email2_1_2_, instructor0_.first_name as first_name3_1_2_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_2_, instructor0_.last_name as last_name4_1_2_, course1_.instructor_id as instructor_id3_0_4_, course1_.id as id1_0_4_, course1_.id as id1_0_0_, course1_.instructor_id as instructor_id3_0_0_, course1_.titile as titile2_0_0_, instructor2_.id as id1_2_1_, instructor2_.hobby as hobby2_2_1_, instructor2_.youtube_channel as youtube_channel3_2_1_ from INSTRUCTOR instructor0_, COURSE course1_, INSTRUCTOR_DETAIL instructor2_ where instructor0_.id=course1_.instructor_id(+) and instructor0_.instructor_Detail_id=instructor2_.id(+) and instructor0_.id=?
+ Static select for action ACTION_REFRESH on entity com.dao.Instructor: select instructor0_.id as id1_1_2_, instructor0_.email as email2_1_2_, instructor0_.first_name as first_name3_1_2_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_2_, instructor0_.last_name as last_name4_1_2_, course1_.instructor_id as instructor_id3_0_4_, course1_.id as id1_0_4_, course1_.id as id1_0_0_, course1_.instructor_id as instructor_id3_0_0_, course1_.titile as titile2_0_0_, instructor2_.id as id1_2_1_, instructor2_.hobby as hobby2_2_1_, instructor2_.youtube_channel as youtube_channel3_2_1_ from INSTRUCTOR instructor0_, COURSE course1_, INSTRUCTOR_DETAIL instructor2_ where instructor0_.id=course1_.instructor_id(+) and instructor0_.instructor_Detail_id=instructor2_.id(+) and instructor0_.id=?
+ Static select for entity com.dao.Instructor [NONE]: select instructor0_.id as id1_1_1_, instructor0_.email as email2_1_1_, instructor0_.first_name as first_name3_1_1_, instructor0_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor0_.last_name as last_name4_1_1_, instructor1_.id as id1_2_0_, instructor1_.hobby as hobby2_2_0_, instructor1_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR instructor0_, INSTRUCTOR_DETAIL instructor1_ where instructor0_.instructor_Detail_id=instructor1_.id(+) and instructor0_.instructor_Detail_id=?
+ Static SQL for entity: com.dao.InstructorDetail
+  Version select: select id from INSTRUCTOR_DETAIL where id =?
+  Snapshot select: select instructor_.id, instructor_.hobby as hobby2_2_, instructor_.youtube_channel as youtube_channel3_2_ from INSTRUCTOR_DETAIL instructor_ where instructor_.id=?
+  Insert 0: insert into INSTRUCTOR_DETAIL (hobby, youtube_channel, id) values (?, ?, ?)
+  Update 0: update INSTRUCTOR_DETAIL set hobby=?, youtube_channel=? where id=?
+  Delete 0: delete from INSTRUCTOR_DETAIL where id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@436390f4]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68ed96ca]
+ Visiting attribute path : instrutor.course
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3228d990]
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54e7391d]
+ Visiting attribute path : instrutor.email
+ Visiting attribute path : instrutor.firstName
+ Visiting attribute path : instrutor.instructor_Detail
+ Property path deemed to be circular : instrutor.instructor_Detail
+ Visiting attribute path : instrutor.lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+             - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:2>, path=com.dao.InstructorDetail.instrutor.course)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:3>, path=com.dao.InstructorDetail.instrutor.course.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(instrutor)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.dao.Instructor)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+ Static select for entity com.dao.InstructorDetail [NONE]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_, instructor1_.id as id1_1_1_, instructor1_.email as email2_1_1_, instructor1_.first_name as first_name3_1_1_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor1_.last_name as last_name4_1_1_ from INSTRUCTOR_DETAIL instructor0_, INSTRUCTOR instructor1_ where instructor0_.id=instructor1_.instructor_Detail_id(+) and instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50b8ae8d]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51c929ae]
+ Visiting attribute path : instrutor.course
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@29d2d081]
+ Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@40e4ea87]
+ Visiting attribute path : instrutor.email
+ Visiting attribute path : instrutor.firstName
+ Visiting attribute path : instrutor.instructor_Detail
+ Property path deemed to be circular : instrutor.instructor_Detail
+ Visiting attribute path : instrutor.lastName
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+             - CollectionAttributeFetchImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:2>, path=com.dao.InstructorDetail.instrutor.course)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:3>, path=com.dao.InstructorDetail.instrutor.course.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(instrutor)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.dao.Instructor)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+ Static select for entity com.dao.InstructorDetail [READ]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_, instructor1_.id as id1_1_1_, instructor1_.email as email2_1_1_, instructor1_.first_name as first_name3_1_1_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor1_.last_name as last_name4_1_1_ from INSTRUCTOR_DETAIL instructor0_, INSTRUCTOR instructor1_ where instructor0_.id=instructor1_.instructor_Detail_id(+) and instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58783f6c]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@512d92b]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [UPGRADE]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62c5bbdc]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bc53649]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [UPGRADE_NOWAIT]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@88d6f9b]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@475b7792]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [UPGRADE_SKIPLOCKED]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@160c3ec1]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d0402b]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [FORCE]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2fa7ae9]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3704122f]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [PESSIMISTIC_READ]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3153ddfc]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28a2a3e7]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [PESSIMISTIC_WRITE]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f2049b6]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ea27e34]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [PESSIMISTIC_FORCE_INCREMENT]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33a2499c]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33c2bd]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [OPTIMISTIC]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1dfd5f51]
+ Visiting attribute path : hobby
+ Visiting attribute path : youtubeChannel
+ Visiting attribute path : instrutor
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24855019]
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.InstructorDetail)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:0>, path=com.dao.InstructorDetail)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.InstructorDetail.instrutor)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.InstructorDetail)
+          - SQL table alias mapping - instructor0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+ Static select for entity com.dao.InstructorDetail [OPTIMISTIC_FORCE_INCREMENT]: select instructor0_.id as id1_2_0_, instructor0_.hobby as hobby2_2_0_, instructor0_.youtube_channel as youtube_channel3_2_0_ from INSTRUCTOR_DETAIL instructor0_ where instructor0_.id=?
+ Static select for action ACTION_MERGE on entity com.dao.InstructorDetail: select instructor0_.id as id1_2_2_, instructor0_.hobby as hobby2_2_2_, instructor0_.youtube_channel as youtube_channel3_2_2_, instructor1_.id as id1_1_0_, instructor1_.email as email2_1_0_, instructor1_.first_name as first_name3_1_0_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor1_.last_name as last_name4_1_0_, course2_.instructor_id as instructor_id3_0_4_, course2_.id as id1_0_4_, course2_.id as id1_0_1_, course2_.instructor_id as instructor_id3_0_1_, course2_.titile as titile2_0_1_ from INSTRUCTOR_DETAIL instructor0_, INSTRUCTOR instructor1_, COURSE course2_ where instructor0_.id=instructor1_.instructor_Detail_id(+) and instructor1_.id=course2_.instructor_id(+) and instructor0_.id=?
+ Static select for action ACTION_REFRESH on entity com.dao.InstructorDetail: select instructor0_.id as id1_2_2_, instructor0_.hobby as hobby2_2_2_, instructor0_.youtube_channel as youtube_channel3_2_2_, instructor1_.id as id1_1_0_, instructor1_.email as email2_1_0_, instructor1_.first_name as first_name3_1_0_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor1_.last_name as last_name4_1_0_, course2_.instructor_id as instructor_id3_0_4_, course2_.id as id1_0_4_, course2_.id as id1_0_1_, course2_.instructor_id as instructor_id3_0_1_, course2_.titile as titile2_0_1_ from INSTRUCTOR_DETAIL instructor0_, INSTRUCTOR instructor1_, COURSE course2_ where instructor0_.id=instructor1_.instructor_Detail_id(+) and instructor1_.id=course2_.instructor_id(+) and instructor0_.id=?
+ Static SQL for entity: com.dao.CourseDAO
+  Version select: select id from COURSE where id =?
+  Snapshot select: select coursedao_.id, coursedao_.instructor_id as instructor_id3_0_, coursedao_.titile as titile2_0_ from COURSE coursedao_ where coursedao_.id=?
+  Insert 0: insert into COURSE (instructor_id, titile, id) values (?, ?, ?)
+  Update 0: update COURSE set instructor_id=?, titile=? where id=?
+  Delete 0: delete from COURSE where id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3abd581e]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@610db97e]
+ Visiting attribute path : instructor_id.course
+ Property path deemed to be circular : instructor_id.course
+ Visiting attribute path : instructor_id.email
+ Visiting attribute path : instructor_id.firstName
+ Visiting attribute path : instructor_id.instructor_Detail
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fabf088]
+ Visiting attribute path : instructor_id.instructor_Detail.hobby
+ Visiting attribute path : instructor_id.instructor_Detail.youtubeChannel
+ Visiting attribute path : instructor_id.instructor_Detail.instrutor
+ Property path deemed to be circular : instructor_id.instructor_Detail.instrutor
+ Visiting attribute path : instructor_id.lastName
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+             - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:2>, path=com.dao.CourseDAO.instructor_id.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(instructor_id)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.dao.Instructor)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(instructor_Detail)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.dao.InstructorDetail)
+                      - SQL table alias mapping - instructor2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+
+ Static select for entity com.dao.CourseDAO [NONE]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_, instructor1_.id as id1_1_1_, instructor1_.email as email2_1_1_, instructor1_.first_name as first_name3_1_1_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor1_.last_name as last_name4_1_1_, instructor2_.id as id1_2_2_, instructor2_.hobby as hobby2_2_2_, instructor2_.youtube_channel as youtube_channel3_2_2_ from COURSE coursedao0_, INSTRUCTOR instructor1_, INSTRUCTOR_DETAIL instructor2_ where coursedao0_.instructor_id=instructor1_.id(+) and instructor1_.instructor_Detail_id=instructor2_.id(+) and coursedao0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12f3afb5]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c22a348]
+ Visiting attribute path : instructor_id.course
+ Property path deemed to be circular : instructor_id.course
+ Visiting attribute path : instructor_id.email
+ Visiting attribute path : instructor_id.firstName
+ Visiting attribute path : instructor_id.instructor_Detail
+ Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74d7184a]
+ Visiting attribute path : instructor_id.instructor_Detail.hobby
+ Visiting attribute path : instructor_id.instructor_Detail.youtubeChannel
+ Visiting attribute path : instructor_id.instructor_Detail.instrutor
+ Property path deemed to be circular : instructor_id.instructor_Detail.instrutor
+ Visiting attribute path : instructor_id.lastName
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+             - EntityAttributeFetchImpl(entity=com.dao.InstructorDetail, querySpaceUid=<gen:2>, path=com.dao.CourseDAO.instructor_id.instructor_Detail)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(instructor_id)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.dao.Instructor)
+                - SQL table alias mapping - instructor1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(instructor_Detail)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.dao.InstructorDetail)
+                      - SQL table alias mapping - instructor2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_2_2_}
+
+ Static select for entity com.dao.CourseDAO [READ]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_, instructor1_.id as id1_1_1_, instructor1_.email as email2_1_1_, instructor1_.first_name as first_name3_1_1_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor1_.last_name as last_name4_1_1_, instructor2_.id as id1_2_2_, instructor2_.hobby as hobby2_2_2_, instructor2_.youtube_channel as youtube_channel3_2_2_ from COURSE coursedao0_, INSTRUCTOR instructor1_, INSTRUCTOR_DETAIL instructor2_ where coursedao0_.instructor_id=instructor1_.id(+) and instructor1_.instructor_Detail_id=instructor2_.id(+) and coursedao0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6831d8fd]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b85300e]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [UPGRADE]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3aaf4f07]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18e8473e]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [UPGRADE_NOWAIT]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a2f016d]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ad394e6]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [UPGRADE_SKIPLOCKED]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6058e535]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1deb2c43]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [FORCE]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3bb9efbc]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b27cc70]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [PESSIMISTIC_READ]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f6a7463]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79f227a9]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [PESSIMISTIC_WRITE]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ca320ab]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e53135d]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [PESSIMISTIC_FORCE_INCREMENT]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=? for update nowait
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7674a051]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6754ef00]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [OPTIMISTIC]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@619bd14c]
+ Visiting attribute path : instructor_id
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a23a01d]
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(entity=com.dao.CourseDAO)
+    - Returns
+       - EntityReturnImpl(entity=com.dao.CourseDAO, querySpaceUid=<gen:0>, path=com.dao.CourseDAO)
+          - EntityAttributeFetchImpl(entity=com.dao.Instructor, querySpaceUid=<gen:1>, path=com.dao.CourseDAO.instructor_id)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.dao.CourseDAO)
+          - SQL table alias mapping - coursedao0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+ Static select for entity com.dao.CourseDAO [OPTIMISTIC_FORCE_INCREMENT]: select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_ from COURSE coursedao0_ where coursedao0_.id=?
+ Static select for action ACTION_MERGE on entity com.dao.CourseDAO: select coursedao0_.id as id1_0_2_, coursedao0_.instructor_id as instructor_id3_0_2_, coursedao0_.titile as titile2_0_2_, instructor1_.id as id1_1_0_, instructor1_.email as email2_1_0_, instructor1_.first_name as first_name3_1_0_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor1_.last_name as last_name4_1_0_, instructor2_.id as id1_2_1_, instructor2_.hobby as hobby2_2_1_, instructor2_.youtube_channel as youtube_channel3_2_1_ from COURSE coursedao0_, INSTRUCTOR instructor1_, INSTRUCTOR_DETAIL instructor2_ where coursedao0_.instructor_id=instructor1_.id(+) and instructor1_.instructor_Detail_id=instructor2_.id(+) and coursedao0_.id=?
+ Static select for action ACTION_REFRESH on entity com.dao.CourseDAO: select coursedao0_.id as id1_0_2_, coursedao0_.instructor_id as instructor_id3_0_2_, coursedao0_.titile as titile2_0_2_, instructor1_.id as id1_1_0_, instructor1_.email as email2_1_0_, instructor1_.first_name as first_name3_1_0_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_0_, instructor1_.last_name as last_name4_1_0_, instructor2_.id as id1_2_1_, instructor2_.hobby as hobby2_2_1_, instructor2_.youtube_channel as youtube_channel3_2_1_ from COURSE coursedao0_, INSTRUCTOR instructor1_, INSTRUCTOR_DETAIL instructor2_ where coursedao0_.instructor_id=instructor1_.id(+) and instructor1_.instructor_Detail_id=instructor2_.id(+) and coursedao0_.id=?
+ Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3e792ce3]
+ Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@53bc1328]
+ Visiting attribute path : instructor_id
+ Property path deemed to be circular : instructor_id
+ Visiting attribute path : titile
+ Building LoadPlan...
+ processing queryspace <gen:0>
+ LoadPlan(collection=com.dao.Instructor.course)
+    - Returns
+       - CollectionReturnImpl(collection=com.dao.Instructor.course, querySpaceUid=<gen:0>, path=[com.dao.Instructor.course])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.dao.CourseDAO, querySpaceUid=<gen:1>, path=[com.dao.Instructor.course].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.dao.Instructor.course)
+          - SQL table alias mapping - course0_
+          - alias suffix - 0_
+          - suffixed key columns - {instructor_id3_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.dao.CourseDAO)
+                - SQL table alias mapping - course0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+ Static select for collection com.dao.Instructor.course: select course0_.instructor_id as instructor_id3_0_0_, course0_.id as id1_0_0_, course0_.id as id1_0_1_, course0_.instructor_id as instructor_id3_0_1_, course0_.titile as titile2_0_1_ from COURSE course0_ where course0_.instructor_id=?
+ No actions specified; doing nothing
+ Checking 0 named HQL queries
+ Checking 0 named SQL queries
+ Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@4e7095ac
+ Registering SessionFactory: 282689a6-da9c-48a7-a5ee-4be36c97769f (<unnamed>)
+ Not binding SessionFactory to JNDI, no JNDI name configured
+ Start to delete Course
+ Statistics initialized [enabled=false]
+ begin
+ select coursedao0_.id as id1_0_0_, coursedao0_.instructor_id as instructor_id3_0_0_, coursedao0_.titile as titile2_0_0_, instructor1_.id as id1_1_1_, instructor1_.email as email2_1_1_, instructor1_.first_name as first_name3_1_1_, instructor1_.instructor_Detail_id as instructor_Detail_5_1_1_, instructor1_.last_name as last_name4_1_1_, instructor2_.id as id1_2_2_, instructor2_.hobby as hobby2_2_2_, instructor2_.youtube_channel as youtube_channel3_2_2_ from COURSE coursedao0_, INSTRUCTOR instructor1_, INSTRUCTOR_DETAIL instructor2_ where coursedao0_.instructor_id=instructor1_.id(+) and instructor1_.instructor_Detail_id=instructor2_.id(+) and coursedao0_.id=?
+ HHH000387: ResultSet's statement was not registered
+ Done entity load : com.dao.CourseDAO#15
+ Can not delete course demo
+ 

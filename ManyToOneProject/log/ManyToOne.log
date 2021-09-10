@@ -1,0 +1,63 @@
+2021-09-09 23:24:25 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  2021-09-09 23:24:25 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+  2021-09-09 23:24:25 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+  2021-09-09 23:24:25 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+  2021-09-09 23:24:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.18.Final}
+  2021-09-09 23:24:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+  2021-09-09 23:24:25 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+  2021-09-09 23:24:25 DEBUG LocalXmlResourceResolver:85 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+  2021-09-09 23:24:25 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+  2021-09-09 23:24:25 DEBUG Configuration:724 - Building session factory using internal StandardServiceRegistryBuilder
+  2021-09-09 23:24:25 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+  2021-09-09 23:24:25 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+  2021-09-09 23:24:25 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+  2021-09-09 23:24:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@42eca56e
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@42eca56e
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@42eca56e
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@553a3d88
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@28ac3dc3
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration yes_no -> org.hibernate.type.YesNoType@1d371b2d
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@1fc2b765
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@1fc2b765
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1fc2b765
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration character -> org.hibernate.type.CharacterType@17d0685f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration char -> org.hibernate.type.CharacterType@17d0685f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@17d0685f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@7e0e6aa2
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@7e0e6aa2
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7e0e6aa2
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration integer -> org.hibernate.type.IntegerType@782663d3
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration int -> org.hibernate.type.IntegerType@782663d3
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@782663d3
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@2e3fc542
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@2e3fc542
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2e3fc542
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@2eda0940
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@2eda0940
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2eda0940
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@5c072e3f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@5c072e3f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5c072e3f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@545997b1
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@545997b1
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2641e737
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2641e737
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration string -> org.hibernate.type.StringType@16f7c8c1
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.String -> org.hibernate.type.StringType@16f7c8c1
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5c18298f
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@376b4233
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration url -> org.hibernate.type.UrlType@b3d7190
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@b3d7190
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration Duration -> org.hibernate.type.DurationType@6dde5c8c
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6dde5c8c
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration Instant -> org.hibernate.type.InstantType@aecb35a
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@aecb35a
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@382db087
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@382db087
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3d0f8e03
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3d0f8e03
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@27fe3806
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@27fe3806
+  2021-09-09 23:24:25 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4f51b3e0
+  2021-09-09 23:24:
